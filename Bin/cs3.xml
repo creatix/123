@@ -1,0 +1,522 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+cs3
+</name>
+</assembly>
+<members>
+<member name="F:cs3.tablerowpanel.mainForm">
+	<summary>
+mainForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.tablerowpanel.controlsList">
+	<summary>
+controlsList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.templatespage.aspform">
+	<summary>
+aspform control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.templatespage.codeplaceholder">
+	<summary>
+codeplaceholder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.gridContent.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.gridContent.DataTable">
+	<summary>
+DataTable control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.gridContent.PagingNav">
+	<summary>
+PagingNav control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.GetConnectionString">
+	<summary> 
+ This method gets the connection string. 
+ </summary>
+	<returns>Connection String</returns>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.GetMysqlConnection">
+	<summary> 
+ This method returns MySqlConnection object. 
+ </summary>
+	<returns>MySqlConnection</returns>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.ExecuteDataSet(System.Data.CommandType,System.String)">
+	<summary> 
+ This method returns the data in dataset form. 
+ </summary>
+	<param name="cmdType">Command type</param>
+	<param name="CommandText">Command text</param>
+	<returns>Data in the form of Dataset.</returns>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.ExecuteDataSet(System.Data.CommandType,System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+	<summary> 
+ This method returns the data in dataset form. 
+ </summary>
+	<param name="cmdType">Command type</param>
+	<param name="CommandText">Command text</param>
+	<param name="mysqlParams">MySqlParameters</param>
+	<returns>Data in the form of Dataset.</returns>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.UpdateDataSet(System.Data.DataTable@)">
+	<summary> 
+ This method returns the data in dataset form. 
+ </summary>
+	<param name="dt">Command type</param>
+	<returns>Data in the form of Dataset.</returns>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.ExecuteScalar(System.Data.CommandType,System.String)">
+	<summary> 
+ This method returns object typecast the object to int or string depending upon return type. 
+ </summary>
+	<param name="cmdType">CommandType</param>
+	<param name="CommandText">CommandText</param>
+	<returns>Object</returns>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.ExecuteScalar(System.Data.CommandType,System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+	<summary> 
+ This method returns object typecast the object to int or string depending upon return type. 
+ </summary>
+	<param name="cmdType">CommandType</param>
+	<param name="CommandText">CommandText</param>
+	<param name="mysqlParams">MySqlParameter</param>
+	<returns>Object</returns>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.ExecuteNonQuery(System.Data.CommandType,System.String)">
+	<summary> 
+ This methods returns no of rows affected. 
+ </summary>
+	<param name="cmdType">CommandType</param>
+	<param name="CommandText">CommandText</param>
+	<returns></returns>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.ExecuteNonQuery(System.Data.CommandType,System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+	<summary> 
+ /// This methods returns no of rows affected. 
+ </summary>
+	<param name="cmdType">CommandType</param>
+	<param name="CommandText">CommandText</param>
+	<param name="mysqlParams">MySqlParameters</param>
+	<returns></returns>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.ExecuteReader(System.Data.CommandType,System.String)">
+	<summary> 
+ This method returns data in form of reader form. 
+ </summary>
+	<param name="cmdType">Command Type</param>
+	<param name="CommandText">Command Text</param>
+	<returns></returns>
+</member><member name="M:cs3.DataLayer.MySQLTableAdapter.ExecuteReader(System.Data.CommandType,System.String,MySql.Data.MySqlClient.MySqlParameter[])">
+	<summary> 
+ This method returns data in form of reader form. 
+ </summary>
+	<param name="cmdType">Command Type</param>
+	<param name="CommandText">Command Text</param>
+	<param name="mysqlParams">MYSQLPARAMETERS</param>
+	<returns></returns>
+</member><member name="F:cs3.fatherselector.selectcontainer1">
+	<summary>
+selectcontainer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.updatepanel.controlsList">
+	<summary>
+controlsList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.searchpanel.selectcontainer1">
+	<summary>
+selectcontainer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.codeview.aspnetForm">
+	<summary>
+aspnetForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.codeview.placeholderslbl">
+	<summary>
+placeholderslbl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.codeview.codeeditor1">
+	<summary>
+codeeditor1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:cs3.DataLayer.TableAdapter.ExecuteDataSet(System.Data.CommandType,System.String)">
+	<summary> 
+ This method returns the data in dataset form. 
+ </summary>
+	<param name="cmdType">Command type</param>
+	<param name="CommandText">Command text</param>
+	<returns>Data in the form of Dataset.</returns>
+</member><member name="M:cs3.DataLayer.TableAdapter.UpdateDataSet(System.Data.DataTable@)">
+	<summary> 
+ This method returns the data in dataset form. 
+ </summary>
+	<param name="dt">Command type</param>
+	<returns>Data in the form of Dataset.</returns>
+</member><member name="M:cs3.DataLayer.TableAdapter.ExecuteScalar(System.Data.CommandType,System.String)">
+	<summary> 
+ This method returns object typecast the object to int or string depending upon return type. 
+ </summary>
+	<param name="cmdType">CommandType</param>
+	<param name="CommandText">CommandText</param>
+	<returns>Object</returns>
+</member><member name="M:cs3.DataLayer.TableAdapter.ExecuteNonQuery(System.Data.CommandType,System.String)">
+	<summary> 
+ This methods returns no of rows affected. 
+ </summary>
+	<param name="cmdType">CommandType</param>
+	<param name="CommandText">CommandText</param>
+	<returns></returns>
+</member><member name="M:cs3.DataLayer.TableAdapter.ExecuteReader(System.Data.CommandType,System.String)">
+	<summary> 
+ This method returns data in form of reader form. 
+ </summary>
+	<param name="cmdType">Command Type</param>
+	<param name="CommandText">Command Text</param>
+	<returns></returns>
+</member><member name="F:cs3.tabletree.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:cs3.Resources.cs.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:cs3.Resources.cs.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:cs3.Resources.cs.cssfile">
+	<summary>
+  Looks up a localized string similar to site.css.
+</summary>
+</member><member name="P:cs3.Resources.cs.direction">
+	<summary>
+  Looks up a localized string similar to LTR.
+</summary>
+</member><member name="P:cs3.Resources.cs.home">
+	<summary>
+  Looks up a localized string similar to Home.
+</summary>
+</member><member name="P:cs3.Resources.cs.language">
+	<summary>
+  Looks up a localized string similar to en.
+</summary>
+</member><member name="T:cs3.Resources.cs">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:cs3.paramspanel.controlsList">
+	<summary>
+controlsList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.tablebrowser.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.admin.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.admin.mainnav1">
+	<summary>
+mainnav1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.admin.ContentPlaceHolder1">
+	<summary>
+ContentPlaceHolder1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.datepicker.dpliteral">
+	<summary>
+dpliteral control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.settings.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.tablerowpage.tablerowpanel1">
+	<summary>
+tablerowpanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.import.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.updatelistpanel.controlsList">
+	<summary>
+controlsList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.updatelistpanel.newRowFields">
+	<summary>
+newRowFields control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.export.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.checkboxlist.cbliteral">
+	<summary>
+cbliteral control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.pages.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.GetConnectionString">
+	<summary> 
+ This method gets the connection string. 
+ </summary>
+	<returns>Connection String</returns>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.GetMsSqlConnection">
+	<summary> 
+ This method returns MySqlConnection object. 
+ </summary>
+	<returns>MySqlConnection</returns>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.ExecuteDataSet(System.Data.CommandType,System.String)">
+	<summary> 
+ This method returns the data in dataset form. 
+ </summary>
+	<param name="cmdType">Command type</param>
+	<param name="CommandText">Command text</param>
+	<returns>Data in the form of Dataset.</returns>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.ExecuteDataSet(System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+	<summary> 
+ This method returns the data in dataset form. 
+ </summary>
+	<param name="cmdType">Command type</param>
+	<param name="CommandText">Command text</param>
+	<param name="mysqlParams">MySqlParameters</param>
+	<returns>Data in the form of Dataset.</returns>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.UpdateDataSet(System.Data.DataTable@)">
+	<summary> 
+ This method returns the data in dataset form. 
+ </summary>
+	<param name="dt">Command type</param>
+	<returns>Data in the form of Dataset.</returns>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.ExecuteScalar(System.Data.CommandType,System.String)">
+	<summary> 
+ This method returns object typecast the object to int or string depending upon return type. 
+ </summary>
+	<param name="cmdType">CommandType</param>
+	<param name="CommandText">CommandText</param>
+	<returns>Object</returns>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.ExecuteScalar(System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+	<summary> 
+ This method returns object typecast the object to int or string depending upon return type. 
+ </summary>
+	<param name="cmdType">CommandType</param>
+	<param name="CommandText">CommandText</param>
+	<param name="mysqlParams">MySqlParameter</param>
+	<returns>Object</returns>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.ExecuteNonQuery(System.Data.CommandType,System.String)">
+	<summary> 
+ This methods returns no of rows affected. 
+ </summary>
+	<param name="cmdType">CommandType</param>
+	<param name="CommandText">CommandText</param>
+	<returns></returns>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.ExecuteNonQuery(System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+	<summary> 
+ /// This methods returns no of rows affected. 
+ </summary>
+	<param name="cmdType">CommandType</param>
+	<param name="CommandText">CommandText</param>
+	<param name="mysqlParams">MySqlParameters</param>
+	<returns></returns>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.ExecuteReader(System.Data.CommandType,System.String)">
+	<summary> 
+ This method returns data in form of reader form. 
+ </summary>
+	<param name="cmdType">Command Type</param>
+	<param name="CommandText">Command Text</param>
+	<returns></returns>
+</member><member name="M:cs3.DataLayer.MsSQLTableAdapter.ExecuteReader(System.Data.CommandType,System.String,System.Data.SqlClient.SqlParameter[])">
+	<summary> 
+ This method returns data in form of reader form. 
+ </summary>
+	<param name="cmdType">Command Type</param>
+	<param name="CommandText">Command Text</param>
+	<param name="mysqlParams">MYSQLPARAMETERS</param>
+	<returns></returns>
+</member><member name="F:cs3.pagingnav.total_pages">
+	<summary>
+total_pages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.pagingnav.lnkPrev">
+	<summary>
+lnkPrev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.pagingnav.lblCurrentPage">
+	<summary>
+lblCurrentPage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.pagingnav.lnkNext">
+	<summary>
+lnkNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.login.loginform">
+	<summary>
+loginform control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.presets.presetlbl">
+	<summary>
+presetlbl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.tablelistpage.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.tablelistpage.grid1">
+	<summary>
+grid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:cs3.test.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

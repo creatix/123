@@ -1,0 +1,71 @@
+﻿<%@ Master Language="VB" CodeFile="Main.master.vb" Inherits="Main" %>
+<%@ Register TagPrefix="modulus" TagName="header" Src="components/header.ascx" %>
+<%@ Register TagPrefix="modulus" TagName="footer" Src="components/footer.ascx" %>
+<%@ Register TagPrefix="modulus" TagName="mainnav" Src="components/mainnav.ascx" %>
+<%@ Register TagPrefix="modulus" TagName="analyticscode" Src="components/analyticscode.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/zeev.css" />
+
+<asp:ContentPlaceHolder id="Header" runat="server">
+</asp:ContentPlaceHolder>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28752136-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+<div class="main">
+<div class="master_div">
+<div class="header">
+<a href="index.aspx"><img src="img/logo.png" width="492" height="158" border="0" /></a>
+
+<span>נייד: 0528-458104</span></div>
+
+<div class="navigation">
+
+	<modulus:mainnav ID="mainnav1" runat="server"></modulus:mainnav>
+
+
+<div class="search">
+<input type="text" value="הקלד מילת חיפוש" onclick="this.value='';" onblur="this.value=!this.value?'הקלד מילת חיפוש':this.value;" />
+<a href="#"> </a>
+</div>
+</div>
+<div class="clear"></div>
+<div class="container">
+
+	<asp:ContentPlaceHolder id="Main" runat="server">
+	  </asp:ContentPlaceHolder>
+
+</div>
+<div class="clear"></div>
+
+</div>
+</div>
+<div class="cont_btm"></div>
+
+ <modulus:footer ID="footer1" runat="server"></modulus:footer>
+
+<modulus:analyticscode ID="analyticscode1" runat="server"></modulus:analyticscode>
+
+</body>
+</html>
+
+
+
+

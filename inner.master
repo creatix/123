@@ -1,0 +1,61 @@
+<%@ Register TagPrefix="modulus" TagName="header" Src="components/header.ascx" %>
+<%@ Register TagPrefix="modulus" TagName="footer" Src="components/footer.ascx" %>
+<%@ Register TagPrefix="modulus" TagName="analyticscode" Src="components/analyticscode.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1255" />
+<title>צמרות דן</title>
+<meta name="description" content="דן, צמרות דן, נדלן,חברת נדלן, דירה, לקנות דירה, פתח תקווה, אם המושבות, קריית אריה, צומת גהה, צומת פתח תקווה, גבעת שמואל, בלינסון, מרכז, מתנה, חלום, נוף פתוח, פרויקט, חדש, תחבורה, מרכז עסקים, בית, בתים,  מגדל, מגדל דירות, , מגדלי יוקרה, משפחה, ילדים, ייזום, חברת יזום, פיתוח, נוף, נוף לים, פנטהאוז, חברת פיתוח, מגורי יוקרה, מגורי יוקרה בישראל, מגורי יוקרה בפתח תקווה, מגורי יוקרה במרכז, קרקעות זמינות לבנייה, פרויקט מגורים, מגורים, בנייה" />
+<meta name="keywords" content="בפרויקט &quot;צמרות דן&quot; בפתח תקווה היינו פרויקט בנייה יוקרתי בו חתומים על עיצוב ותכנון אנשי המקצוע הטובים ביותר, על מנת שתוכלו ליהנות מאיכות חיים גבוהה ומחוויית מגורים מודרנית ומתקדמת. כאשר מוסיפים לכל אלה נוף אורבאני עוצר נשימה, פארקים רחבי ידיים ומפרט טכני עשיר, מקבלים את המקום בו תרצו לגור עם המשפחה שלכם. לבחירתכם, דירות 5,4 ו-6 חדרים מרווחים במיוחד ופנטהאוזים 6 חדרים. לכל דירה מרפסת שמש ענקית, חניה ומחסן. יזם הפרויקט חברת דן נדל&quot;ן רובנו מכירים את פעילותה מתחום התחבורה הציבורית בגוש-דן." />
+
+<link rel="stylesheet" href="css/css_styles.css" type="text/css" />
+<link rel="stylesheet" href="css/milkbox.css" type="text/css" media="screen" />
+
+    
+     	<script type="text/javascript" src="js/mootools-1.2.3-core-yc.js"></script>
+ 	<script type="text/javascript" src="js/mootools-1.2.3.1-assets.js"></script> 
+	<script type="text/javascript" src="js/milkbox-yc.js"></script>
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    
+<asp:ContentPlaceHolder id="Header" runat="server">
+</asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+<!-- Master Div starts from here -->
+<div class="Master_div"> 
+  
+  <!-- Header Div starts from here -->
+  <modulus:header ID="header1" runat="server"></modulus:header>
+  <!-- Header Div ends here --> 
+  
+  <!-- Container Div starts from here -->
+  <div class="container">
+  
+  	<asp:ContentPlaceHolder id="Main" runat="server">
+	</asp:ContentPlaceHolder>
+    
+    <div class="clear"></div>
+  </div>
+  <div class="topsep"></div>
+  <!-- Container Div ends here --> 
+  
+  <!-- Footer Starts from here -->
+  <modulus:footer ID="footer1" runat="server"></modulus:footer>
+  <!-- Footer Div ends here --> 
+  
+</div>
+<!-- Master Div Ends here -->
+
+<modulus:analyticscode ID="analyticscode1" runat="server"></modulus:analyticscode>
+
+</body>
+</html>
+
+
+
+
+
